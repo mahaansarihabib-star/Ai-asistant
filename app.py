@@ -6,7 +6,7 @@ st.title("🤖 Gemini AI Assistant")
 
 # DIRECT KEY INSERTION (Testing ke liye)
 # Yahan "YOUR_GEMINI_API_KEY" ki jagah apni actual key paste karein:
-API_KEY = "YOUR_GEMINI_API_KEY"
+API_KEY = "AQ.Ab8RN6JrI39GXX6BWRREMY5s-CS0z3QHQFKiKyn-anWbvZkXXQ"
 
 if API_KEY == "YOUR_GEMINI_API_KEY":
     st.warning("Pehle code mein line 9 par apni actual Gemini API key paste karein!")
