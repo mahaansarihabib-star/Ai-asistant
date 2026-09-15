@@ -8,7 +8,7 @@ st.title("🤖 Gemini AI Assistant")
 # --- API KEY CONFIGURATION ---
 # Option 1: Streamlit Cloud Secrets (Recommended)
 # Option 2: Direct Key (If Secrets not used)
-DIRECT_API_KEY = "AIzaSy_YOUR_ACTUAL_API_KEY_HERE"
+DIRECT_API_KEY = "AQ.Ab8RN6JrI39GXX6BWRREMY5s-CS0z3QHQFKiKyn-anWbvZkXXQ"
 
 # Try getting key from Streamlit Secrets first, fallback to DIRECT_API_KEY
 API_KEY = st.secrets.get("GEMINI_API_KEY", DIRECT_API_KEY)
