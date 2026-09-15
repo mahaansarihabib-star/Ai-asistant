@@ -4,8 +4,7 @@ import google.generativeai as genai
 st.set_page_config(page_title="Gemini AI Assistant", page_icon="🤖")
 st.title("🤖 Gemini AI Assistant")
 
-# DIRECT KEY INSERTION (Testing ke liye)
-# Yahan "YOUR_GEMINI_API_KEY" ki jagah apni actual key paste karein:
+# DIRECT KEY INSERTION
 API_KEY = "AQ.Ab8RN6JrI39GXX6BWRREMY5s-CS0z3QHQFKiKyn-anWbvZkXXQ"
 
 if API_KEY == "YOUR_GEMINI_API_KEY":
@@ -13,7 +12,9 @@ if API_KEY == "YOUR_GEMINI_API_KEY":
     st.stop()
 
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+
+# UPDATED MODEL NAME HERE:
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
